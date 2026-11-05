@@ -13,7 +13,6 @@ public class DataLoader {
     @Bean
     CommandLineRunner initDatabase(CharacterService service) {
         return args -> {
-            // Only seed if the database is currently empty to prevent duplicate entries on restart
             if (service.getAllCharacters().isEmpty()) {
                 Character leo = new Character("Leonardo", Role.ATTACKER, 85, 
                     "https://upload.wikimedia.org/wikipedia/en/5/5a/Leonardo_%(Teenage_Mutant_Ninja_Turtles%).png");
