@@ -23,7 +23,7 @@ public class DataLoader {
                 Character mikey = new Character("Michelangelo", Role.ATTACKER, 75, 
                     "https://upload.wikimedia.org/wikipedia/en/1/1a/Michelangelo_%(Teenage_Mutant_Ninja_Turtles%).png");
 
-                Character raph = new Character("Raphael", Role.TANK, 88, 
+                Character raph = new Character("Raphael", Role.DEFENDER, 88, 
                     "https://upload.wikimedia.org/wikipedia/en/7/72/Raphael_%(Teenage_Mutant_Ninja_Turtles%).png");
 
                 service.createCharacter(leo);
