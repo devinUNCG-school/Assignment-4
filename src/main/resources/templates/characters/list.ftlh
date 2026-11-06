@@ -15,7 +15,7 @@
             <#list characters as character>
                 <div class="card" style="margin-bottom: 0; display: flex; flex-direction: column; justify-content: space-between;">
                     <div>
-                        <img src="${character.imageUrl!''}" alt="${character.name}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px;" onerror="this.src='https://via.placeholder.com/150'">
+                        <img src="${character.imageUrl!''}" alt="${character.name}" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px;" onerror="this.src='https://via.placeholder.com/150'">
                         <h3 style="margin: 0.75rem 0 0.5rem 0;">${character.name}</h3>
                         <p style="margin: 0.25rem 0;"><strong>Role:</strong> ${character.role!''}</p>
                         <p style="margin: 0.25rem 0;"><strong>Level:</strong> ${character.level!''}</p>
