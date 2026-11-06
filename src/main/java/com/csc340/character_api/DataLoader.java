@@ -15,16 +15,16 @@ public class DataLoader {
         return args -> {
             if (service.getAllCharacters().isEmpty()) {
                 Character leo = new Character("Leonardo", Role.ATTACKER, 85, 
-                    "https://upload.wikimedia.org/wikipedia/en/5/5a/Leonardo_%(Teenage_Mutant_Ninja_Turtles%).png");
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7hf1k8WWlORckSfilL0Rb7Oku5BbYPAGRjDyw7FDbxA&s=10");
 
                 Character don = new Character("Donatello", Role.SUPPORT, 80, 
-                    "https://upload.wikimedia.org/wikipedia/en/f/f3/Donatello_%(Teenage_Mutant_Ninja_Turtles%).png");
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCg3AkcQAVndEtV-YuNGilY356fkKl0hwoTi5OhLFkg&s=10");
 
                 Character mikey = new Character("Michelangelo", Role.ATTACKER, 75, 
-                    "https://upload.wikimedia.org/wikipedia/en/1/1a/Michelangelo_%(Teenage_Mutant_Ninja_Turtles%).png");
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjbbK0KMtmJQGFl9RJUsV5cKKsABdBo1sVH-_FcJsBg&s=10");
 
                 Character raph = new Character("Raphael", Role.DEFENDER, 88, 
-                    "https://upload.wikimedia.org/wikipedia/en/7/72/Raphael_%(Teenage_Mutant_Ninja_Turtles%).png");
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRimEKvMygi_7Qinjc3xCocAt5zvBdgrhaCFwdyoSFgA&s=10");
 
                 service.createCharacter(leo);
                 service.createCharacter(don);
